@@ -9,7 +9,7 @@ import uvicorn
 app = FastAPI()
 
 # --- KONFIGURACJA SUPABASE ---
-SUPABASE_URL = "https://c48wg1i2xaznc24zefhsmw.supabase.co"
+SUPABASE_URL = "https://ozafroomtcguvqeehghx.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im96YWZyb29tdGNndXZxZWVoZ2h4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc3NjMzMDQsImV4cCI6MjA5MzMzOTMwNH0.OviaGcdxTJO6M-qRhV1WHAYwbZAz-_Iv4k1NK2qUxmE"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
